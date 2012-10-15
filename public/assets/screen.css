@@ -66,3 +66,42 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 14, ../../app/assets/stylesheets/screen.css.scss */
+body {
+  background-color: #f4f4f4;
+  *zoom: 1;
+  max-width: 59em;
+  _width: 59em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* line 38, ../../../../.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 21, ../../app/assets/stylesheets/screen.css.scss */
+.right-gutter {
+  background-color: #e5e5e5;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  padding-left: 2.5641%;
+  padding-right: 2.5641%;
+  width: 43.58974%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+/* line 31, ../../app/assets/stylesheets/screen.css.scss */
+.right-gutter .badges .angellist {
+  background-color: #e5e5e5;
+}

@@ -4,3 +4,36 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3/border-radius";
+@import "sassy-buttons";
+@import "susy";
+
+$background : #f4f4f4;
+$gutter : #e5e5e5;
+
+body {
+  background-color : $background;
+  @include container;
+//  @include susy-grid-background;
+}
+
+@include layout(8) {
+  .right-gutter {
+    background-color : $gutter;
+    @include border-radius(1em);
+    @include span-columns(4 omega, 8, 1em);
+
+    .nav {
+      li {
+      }
+    }
+    .badges {
+      .angellist {
+        background-color : $gutter;
+      }
+    }
+    .gutter-footer {
+
+    }
+  }
+}
