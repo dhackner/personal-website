@@ -1,5 +1,7 @@
 PersonalWebsite::Application.routes.draw do
   root :to => 'static#homepage'
+  match 'show_hacknermemonicse2008' => 'static#show_hacknermemonicse2008'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

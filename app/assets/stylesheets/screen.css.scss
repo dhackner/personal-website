@@ -8,20 +8,29 @@
 @import "sassy-buttons";
 @import "susy";
 
-$background : #f4f4f4;
-$gutter : #e5e5e5;
+$grey                         : #f4f4f4;
+$dark-grey                    : #e5e5e5;
+$darker-grey                  : #7f7f7f;
+$blackish-grey                : #585858;
+$base-font                    : 500 16px/20px "Helvetica Neue", sans-serif;
+$medium-font                  : 200 23px/30px "Helvetica Neue", sans-serif;
+$big-font                     : 200 33px/40px "Helvetica Neue", sans-serif;
+
 
 body {
-  background-color : $background;
+  background-color : $grey;
   @include container;
-//  @include susy-grid-background;
+  //  @include susy-grid-background;
+  font : $base-font;
 }
 
 @include layout(8) {
   .right-gutter {
-    background-color : $gutter;
+    background-color : $dark-grey;
     @include border-radius(1em);
     @include span-columns(4 omega, 8, 1em);
+    padding-top    : 1em;
+    padding-bottom : 1em;
 
     .nav {
       li {
@@ -29,7 +38,7 @@ body {
     }
     .badges {
       .angellist {
-        background-color : $gutter;
+        background-color : $dark-grey;
       }
     }
     .gutter-footer {
