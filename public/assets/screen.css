@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 20, ../../app/assets/stylesheets/screen.css.scss */
+/* line 23, ../../app/assets/stylesheets/screen.css.scss */
 body {
   background-color: #f4f4f4;
   *zoom: 1;
@@ -85,26 +85,91 @@ body:after {
   display: table;
   clear: both;
 }
+/* line 14, ../../../../.rvm/gems/ruby-1.9.3-head/gems/susy-1.0.1/sass/susy/_grid.scss */
+body * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-/* line 28, ../../app/assets/stylesheets/screen.css.scss */
-.right-gutter {
+/* line 31, ../../app/assets/stylesheets/screen.css.scss */
+.portfolio-snapshots {
+  font-size: .75em;
+  padding-left: 1.69492%;
+  padding-right: 1.69492%;
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+/* line 34, ../../app/assets/stylesheets/screen.css.scss */
+.portfolio-snapshots div {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  padding: 2em;
+}
+/* line 172, ../../../../.rvm/gems/ruby-1.9.3-head/gems/susy-1.0.1/sass/susy/_grid.scss */
+.portfolio-snapshots div:last-child {
+  float: right;
+  margin-right: 0;
+  #margin-left: -1em;
+  display: inline;
+}
+/* line 39, ../../app/assets/stylesheets/screen.css.scss */
+.portfolio-snapshots div:hover {
+  background-color: #e5e5e5;
+}
+/* line 40, ../../app/assets/stylesheets/screen.css.scss */
+.portfolio-snapshots div img {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  border-color: #00acee;
+  border-style: solid;
+  border-width: .2em;
+}
+
+/* line 49, ../../app/assets/stylesheets/screen.css.scss */
+.footer {
   background-color: #e5e5e5;
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   -ms-border-radius: 1em;
   -o-border-radius: 1em;
   border-radius: 1em;
-  padding-left: 2.5641%;
-  padding-right: 2.5641%;
-  width: 43.58974%;
+  padding-left: 1.69492%;
+  padding-right: 1.69492%;
+  width: 100%;
   float: right;
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
+  margin-top: 3em;
   padding-top: 1em;
   padding-bottom: 1em;
 }
-/* line 40, ../../app/assets/stylesheets/screen.css.scss */
-.right-gutter .badges .angellist {
+/* line 59, ../../app/assets/stylesheets/screen.css.scss */
+.footer .badges .twitter {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 62, ../../app/assets/stylesheets/screen.css.scss */
+.footer .badges .angellist {
   background-color: #e5e5e5;
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
 }

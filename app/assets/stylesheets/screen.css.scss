@@ -12,37 +12,56 @@ $grey                         : #f4f4f4;
 $dark-grey                    : #e5e5e5;
 $darker-grey                  : #7f7f7f;
 $blackish-grey                : #585858;
+$light-blue                   : #00ACEE;
 $base-font                    : 500 16px/20px "Helvetica Neue", sans-serif;
 $medium-font                  : 200 23px/30px "Helvetica Neue", sans-serif;
 $big-font                     : 200 33px/40px "Helvetica Neue", sans-serif;
+
+$total-columns                : 12;
 
 
 body {
   background-color : $grey;
   @include container;
+  @include border-box-sizing;
   //  @include susy-grid-background;
   font : $base-font;
 }
 
-@include layout(8) {
-  .right-gutter {
-    background-color : $dark-grey;
+.portfolio-snapshots {
+  font-size:.75em;
+  @include span-columns($total-columns omega, $total-columns, 1em);
+  div {
+    @include span-columns(6, $total-columns);
+    @include nth-omega(last);
     @include border-radius(1em);
-    @include span-columns(4 omega, 8, 1em);
-    padding-top    : 1em;
-    padding-bottom : 1em;
-
-    .nav {
-      li {
-      }
+    padding : 2em;
+    &:hover {background-color : $dark-grey;}
+    img {
+      @include border-radius(7px);
+      border-color : $light-blue;
+      border-style : solid;
+      border-width : .2em;
     }
-    .badges {
-      .angellist {
-        background-color : $dark-grey;
-      }
-    }
-    .gutter-footer {
+  }
+}
 
+.footer {
+  background-color : $dark-grey;
+  @include border-radius(1em);
+  @include span-columns($total-columns omega, $total-columns, 1em);
+  margin-top     : 3em;
+  padding-top    : 1em;
+  padding-bottom : 1em;
+
+  .badges {
+    $twitter-columns : 2;
+    .twitter {
+      @include span-columns($twitter-columns, $total-columns);
+    }
+    .angellist {
+      background-color : $dark-grey;
+      @include span-columns($total-columns - $twitter-columns, $total-columns);
     }
   }
 }
