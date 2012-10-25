@@ -1,6 +1,8 @@
 PersonalWebsite::Application.routes.draw do
   root :to => 'static#homepage'
   match 'show_hacknermemonicse2008' => 'static#show_hacknermemonicse2008'
+  match 'embed-widget' => 'static#embed-widget'
+# CATCHALL:  match ':action' => 'static#:action'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
