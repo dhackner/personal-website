@@ -31,7 +31,7 @@ body {
 .portfolio-snapshots {
   font-size:.75em;
   @include span-columns($total-columns omega, $total-columns, 1em);
-  div {
+  .portfolioitem {
     @include span-columns(6, $total-columns);
     @include nth-omega(last);
     @include border-radius(1em);

@@ -104,7 +104,7 @@ body * {
   display: inline;
 }
 /* line 34, ../../app/assets/stylesheets/screen.css.scss */
-.portfolio-snapshots div {
+.portfolio-snapshots .portfolioitem {
   width: 49.15254%;
   float: left;
   margin-right: 1.69492%;
@@ -117,18 +117,18 @@ body * {
   padding: 2em;
 }
 /* line 172, ../../../../.rvm/gems/ruby-1.9.3-head/gems/susy-1.0.1/sass/susy/_grid.scss */
-.portfolio-snapshots div:last-child {
+.portfolio-snapshots .portfolioitem:last-child {
   float: right;
   margin-right: 0;
   #margin-left: -1em;
   display: inline;
 }
 /* line 39, ../../app/assets/stylesheets/screen.css.scss */
-.portfolio-snapshots div:hover {
+.portfolio-snapshots .portfolioitem:hover {
   background-color: #e5e5e5;
 }
 /* line 40, ../../app/assets/stylesheets/screen.css.scss */
-.portfolio-snapshots div img {
+.portfolio-snapshots .portfolioitem img {
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
