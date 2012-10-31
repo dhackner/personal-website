@@ -165,7 +165,13 @@ body * {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 62, ../../app/assets/stylesheets/screen.css.scss */
+/* line 61, ../../app/assets/stylesheets/screen.css.scss */
+.footer .badges .left-gutter .linkedin img {
+  width: 160px;
+  height: 25px;
+  border: 0px;
+}
+/* line 67, ../../app/assets/stylesheets/screen.css.scss */
 .footer .badges .angellist {
   background-color: #e5e5e5;
   width: 74.57627%;

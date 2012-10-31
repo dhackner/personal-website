@@ -58,6 +58,11 @@ body {
     $gutter-columns : 3;
     .left-gutter {
       @include span-columns($gutter-columns, $total-columns);
+      .linkedin img {
+        width  : 160px;
+        height : 25px;
+        border : 0px;
+      }
     }
     .angellist {
       background-color : $dark-grey;

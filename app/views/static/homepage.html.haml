@@ -4,17 +4,19 @@
 %span Some projects I've worked on:
 .portfolio-snapshots
   .portfolioitem
-    = link_to image_tag("adioso_prototype_preview.png"), "http://adioso-mockup.danhackner.com"
+    = link_to image_tag("adioso_prototype_preview.png", :alt => "Adioso Prototype"), "http://adioso-mockup.danhackner.com"
     %span Adioso results page prototype (based on image by @wernah)
   .portfolioitem
-    = link_to image_tag("HacknerMemon_preview.png"), :show_hacknermemonicse2008
+    = link_to image_tag("HacknerMemon_preview.png", :alt => "Hackner Memon paper"), :show_hacknermemonicse2008
     %span Lead Author of GUITAR AMP
 .footer
   .badges
     .left-gutter
       .github
-        = link_to image_tag("octocat-icon.png"), "https://github.com/dhackner"
+        = link_to image_tag("octocat-icon.png", :alt => "Dan Hackner's Github"), "https://github.com/dhackner"
         %a{:href => "https://github.com/dhackner"} Fork me on Github!
+      .linkedin
+        = link_to image_tag("http://www.linkedin.com/img/webpromo/btn_viewmy_160x25.png", :alt => "Dan Hackner's LinkedIn"), "http://www.linkedin.com/in/danielhackner"
       .twitter
         %a.twitter-follow-button{:href => "https://twitter.com/drh", :data => {:show_count => "false", :dnt => "true"}}Follow @drh
         %script !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
