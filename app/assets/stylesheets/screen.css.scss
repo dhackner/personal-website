@@ -55,13 +55,13 @@ body {
   padding-bottom : 1em;
 
   .badges {
-    $twitter-columns : 2;
-    .twitter {
-      @include span-columns($twitter-columns, $total-columns);
+    $gutter-columns : 3;
+    .left-gutter {
+      @include span-columns($gutter-columns, $total-columns);
     }
     .angellist {
       background-color : $dark-grey;
-      @include span-columns($total-columns - $twitter-columns, $total-columns);
+      @include span-columns($total-columns - $gutter-columns, $total-columns);
     }
   }
 }

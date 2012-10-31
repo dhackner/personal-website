@@ -11,10 +11,13 @@
     %span Lead Author of GUITAR AMP
 .footer
   .badges
-    .twitter
-      %span You should follow me on twitter
-      %a.twitter-follow-button{:href => "https://twitter.com/drh", :data => {:show_count => "false", :dnt => "true"}}Follow @drh
-      %script !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    .left-gutter
+      .github
+        = link_to image_tag("octocat-icon.png"), "https://github.com/dhackner"
+        %a{:href => "https://github.com/dhackner"} Fork me on Github!
+      .twitter
+        %a.twitter-follow-button{:href => "https://twitter.com/drh", :data => {:show_count => "false", :dnt => "true"}}Follow @drh
+        %script !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
     .angellist_embed{:data => {:user_id => '84967'}}
     %script{:type => 'text/javascript', :src => 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'}
     %script{:type => 'text/javascript', :src => 'https://angel.co/daniel-hackner/embed/angellist.js'}

@@ -159,8 +159,8 @@ body * {
   padding-bottom: 1em;
 }
 /* line 59, ../../app/assets/stylesheets/screen.css.scss */
-.footer .badges .twitter {
-  width: 15.25424%;
+.footer .badges .left-gutter {
+  width: 23.72881%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
@@ -168,7 +168,7 @@ body * {
 /* line 62, ../../app/assets/stylesheets/screen.css.scss */
 .footer .badges .angellist {
   background-color: #e5e5e5;
-  width: 83.05085%;
+  width: 74.57627%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
